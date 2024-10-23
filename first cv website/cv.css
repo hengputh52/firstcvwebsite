@@ -1,0 +1,256 @@
+@font-face {
+    font-family: night;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: day;
+    src: url(Anton-Regular.ttf);
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.one{
+    background-color: #5b85e6;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.head h1{
+    margin-top: 0;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+.head{
+    font-family: night;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    margin-left: 10%;
+    margin-right: 15%;
+
+}
+.photo img{
+    width: 200px;
+    border: solid;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.photo img:hover{
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    transition: 10ms;
+
+}
+.name, .major, .tel,.link{
+    color: rgb(255, 255, 255);
+    font-family: night;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width:700px ;
+}
+.name{
+    font-size: 60px;
+    font-family: night;
+    text-shadow: 2px 2px rgba(0, 0, 0, 1);
+}
+.email{
+    color: white;
+}
+.major{
+    font-size: 30px;
+    font-family: night;
+    text-shadow: 1px 1px  rgba(0, 0, 0, 1);
+
+}
+.tel{
+    font-size: 30px;
+    font-family: night;
+    text-shadow: 2px 2px rgba(0, 0, 0, 1);
+}
+.email a{
+    font-size: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+.link button{
+    margin-top: 10px;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-weight: bold;
+    box-shadow: 6px 6px black;
+    cursor: pointer;
+}
+.link button:hover{
+    color: white;
+    background-color: rgb(72, 72, 216);
+    box-shadow: 6px 6px rgb(237, 221, 221);
+}
+.two{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-pic{
+    width: 80%;
+}
+.img{
+    width: 80%
+    
+}
+.first-pic{
+    display: inline-block;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 10%;
+}
+.icon-1 i, .icon-2{
+    font-size: 60px;
+}
+
+.work h1, .skill h1{
+    font-family: night;
+    margin-top: 0;
+    font-size: 35px;
+}
+.summary p{
+    width: 350px;
+    border: solid;
+    padding: 30px;
+    font-size: 25px;
+    font-family: night;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 10px 10px;
+    cursor: pointer;
+}
+.summary p:hover{
+    background-color: #000000;
+    color: white;
+    box-shadow: 10px 10px rgb(164, 154, 154);
+} 
+.work-experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    padding: 0 10px 0 10px;
+    row-gap: 50px;
+    column-gap: 30px;
+    padding: 60px;
+}
+.program-language, .framework, .database, .cloud, .git, .soft-skill{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: #131417;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+}
+.langague-img ,.library, .database-info .cloud-info, .git-info , .soft-skill-info{
+    width: 100%;
+}
+
+#program, #database-img, #cloud-img, #soft-skill-img, #git-img, #framework-img{
+    width: 100%;
+    
+}
+#framework-img{
+    width: 100%
+}
+.describe, .about-framework, .about-database, .about-cloud, .git-cloud, .soft-skill-cloud{
+    border-top:  rgb(0, 0, 0) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgb(36, 39, 49);
+}
+.four{
+    margin: 10px 20px 50px 20px;
+}
+span{
+    font-family: night;
+    font-size: 30px;
+}
+ul li span{
+    font-family: night;
+}
+.project, .awards,.cer{
+    font-family: night;
+    font-size: 30px;
+    display: inline-block;
+}
+ul li{
+    border: #a1a5b1 solid;
+    list-style-type: none;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    border-radius: 5px;
+    background-color: #a1a5b1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+#employee, #best{
+    font-size: 20px;
+}
+.ex-se, .se, .edu{
+    font-weight: bold;
+}
+.video iframe{
+    width: 560px;
+    height: 315px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
